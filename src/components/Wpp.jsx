@@ -1,14 +1,26 @@
-import './Wpp.css'
+
 export default function Wpp() {
   return (
-    <div className="wpp">
-      <a
-        href="https://api.whatsapp.com/send?phone=5592988665533"
-        target="_blank"
-        rel="noreferrer">
-        <img className="about-logo" src="/logo192.png" alt="wpp" />
-      </a>
-      <object type="image/svg+xml" data="src/assets/wpp.svg" aria-label="wpp" ></object>
-    </div>
+    
+    <a
+    href="https://api.whatsapp.com/send?phone=5592988665533"
+    target="_blank"
+    rel="noreferrer"
+    style={{
+      position: 'fixed',
+      right: '.5rem',
+      bottom: '.5rem',
+      zIndex: 10,
+      width: 'fit-content',
+    }}
+  >
+    <img
+      src="./wpp.svg"
+      alt="wpp"
+      style={{ width: '8rem', height: 'auto' }}
+    />
+  </a>
+   
+   
   )
 }
