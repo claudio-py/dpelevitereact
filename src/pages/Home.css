@@ -1,0 +1,43 @@
+/* ==============GLOBAL HOME============= */
+main section .infobox{
+		align-items: start;
+	text-align: start;
+}
+
+/*=========== SERVICE SECTION========= */
+/* #service {
+margin-top: 3rem;
+
+} */
+.service-title > * {
+margin-bottom: 1.5rem;
+}
+
+
+/* ================ABOUT=================== */
+#about{
+	margin-top: 5rem;
+}
+.about-entry{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 2rem;
+	margin-bottom: 2rem;
+	padding-inline: 2rem;
+}
+.about-logo{
+	width: 5rem;
+}
+.about-main-img{
+	padding: 1.5rem;
+}
+
+/* =====================LOCAL==================== */
+#local{
+	margin-top: 8rem;
+}
+.local-main-img{
+	padding: 1.5rem;
+}

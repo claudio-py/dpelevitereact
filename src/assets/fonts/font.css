@@ -1,0 +1,12 @@
+@font-face{
+  font-family: 'museo';
+  src: url(./museo300-regular.otf);
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face{
+  font-family: 'rebeque';
+  src: url(./rebeque-demo.otf);
+  font-weight: normal;
+  font-style: normal;
+}

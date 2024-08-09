@@ -1,0 +1,36 @@
+#parent-modal {
+  
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.632); /* Semi-transparent black */
+  z-index: 10; /* Ensure the overlay is below the modal */
+ 
+}
+#modal{
+position:fixed;
+top: 38%;
+left: 5%;
+width: 90%;
+background-color: #fff;
+height: fit-content;
+padding-inline: 2rem;
+padding-block: 5rem;
+box-shadow:   0 4px 6px rgba(0, 0, 0, 0.1);
+z-index: 15;
+
+}
+.hide-modal{
+visibility: hidden;
+}
+.close-button{
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  z-index: 30;
+ 
+ /* border:3px solid red; */
+ padding-inline: 1rem;
+}

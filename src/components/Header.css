@@ -1,0 +1,116 @@
+.wrapper {
+	width: min(51rem, 100%);
+	margin-inline: auto;
+	padding-inline: 2.4rem;
+ 
+}
+nav {
+	display: flex;
+	width: 100vw;
+}
+
+nav .wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+}
+.logo{
+	margin-top: 1rem;
+}
+.div-wpp-icon svg{
+  max-width: 38px;
+  height: 38px;   
+} 
+.div-wpp-icon svg path{
+  fill: var(--primary-color);
+}
+
+nav button.open-menu svg path{
+  stroke: var(--primary-color);
+}
+nav button.close-menu svg path{
+  stroke: var(--bg-light);
+}
+nav .menu,
+nav .close-menu {
+	position: fixed;
+}
+/* MENU EXPANDED */
+body.menu-expanded {
+  overflow: overlay;
+}
+body.menu-expanded > :not(nav) {
+	visibility: hidden;
+}
+.menu,
+.close-menu,
+body.menu-expanded .open-menu {
+	opacity: 0;
+	visibility: hidden;
+}
+body.menu-expanded .menu,
+body.menu-expanded .close-menu {
+	opacity: 1;
+	visibility: visible;
+}
+body.menu-expanded .close-menu{
+  right: 18px;
+}
+.menu {
+	transform: translateY(-100%);
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+
+  overflow: scroll;
+}
+body.menu-expanded .menu {
+	top: 0;
+	left: 0;
+	background: var(--bg-dark);
+	width: 100vw;
+	height: 100vh;
+	transition: transform 300ms;
+	transform: translateY(0);
+}
+.nav-menu-section.service-menu{
+	margin-top: 5rem;
+}
+.service-menu  ul:nth-child(2) {
+	display: flex;
+	flex-direction: column;
+  align-items: start;
+  justify-content: center;
+	gap: 1.8rem;
+	font-size: 1.8rem;
+ line-height: 1.8rem;
+
+}
+.menu ul li a {
+	color: var(--bg-light);
+  
+  
+}
+.nav-menu-section{
+   color: var(--primary-color);
+text-align: start;
+margin-left: 2.5rem;
+}
+.nav-menu-section h3{
+  margin-bottom: 1rem;
+	font-size: 2rem;
+}
+
+.nav-menu-section p{
+  color: var(--bg-light);
+}
+.social-links {
+	display: flex;
+	align-items: center;
+	
+	gap: 3.2rem;
+}
+.nav-menu-section.follow{
+  margin-bottom: 1.5rem;
+}

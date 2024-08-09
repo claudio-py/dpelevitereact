@@ -1,0 +1,11 @@
+#noArrowButton{
+  background-color: var(--bg-dark);
+  padding-block: 1.5rem;
+  width: 80%;
+  justify-content: center;
+}
+#noArrowButton p{
+  color:var(--bg-light);
+  font-size: 1.4rem;
+  
+}
