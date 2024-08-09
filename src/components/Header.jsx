@@ -39,13 +39,13 @@ return(
             <h3>Acompanhe</h3>
           <ul className="social-links">
               <li> <a href="# "> 
-              <img className='svg' src="src/assets/insta.svg" />
+              <img className='svg' src="./assets/insta.svg" />
                   </a> </li>
               <li> <a href="# "> 
-              <img className='svg' src="src/assets/face.svg" />
+              <img className='svg' src="./assets/face.svg" />
                   </a> </li>
               <li> <a href="# "> 
-              <img className='svg' src="src/assets/you.svg" />
+              <img className='svg' src="./assets/you.svg" />
                   </a> </li>
             </ul>
           </div>
