@@ -15,7 +15,7 @@ export default function Wpp() {
     }}
   >
     <img
-      src="./wpp.svg"
+      src="./assets/wpp.svg"
       alt="wpp"
       style={{ width: '8rem', height: 'auto' }}
     />
