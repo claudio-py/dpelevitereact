@@ -1,14 +1,20 @@
 /* ==============GLOBAL HOME============= */
-main section .infobox{
-		align-items: start;
-	text-align: start;
-}
+
 
 /*=========== SERVICE SECTION========= */
-/* #service {
-margin-top: 3rem;
 
-} */
+#service button{
+	transition: background-color .5s;
+}
+ #service button:hover{
+background-color: var(--bg-dark);
+color: var(--bg-light);
+transition: background-color .5s;
+ }
+ #service button:hover i {
+  color: var(--bg-light); 
+}
+
 .service-title > * {
 margin-bottom: 1.5rem;
 }
@@ -17,6 +23,11 @@ margin-bottom: 1.5rem;
 /* ================ABOUT=================== */
 #about{
 	margin-top: 5rem;
+	text-align: start;
+}
+
+#about button{
+	align-self: baseline;
 }
 .about-entry{
 	display: flex;
@@ -37,7 +48,12 @@ margin-bottom: 1.5rem;
 /* =====================LOCAL==================== */
 #local{
 	margin-top: 8rem;
+	text-align: start;
 }
 .local-main-img{
 	padding: 1.5rem;
+	margin-inline: auto;
+}
+#local button{
+	align-self: baseline;
 }

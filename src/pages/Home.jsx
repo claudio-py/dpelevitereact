@@ -18,19 +18,22 @@ export default function Home() {
         </div>
       </section>
       <section id="about">
-        <div className="about-entry"> <img className="about-logo" src="./logo192.png" alt="" />
+        <div className="about-entry"> 
+          <img className="about-logo" src="./logo192.png" alt="" />
           <p>Um propósito simples e admirável: aprimorar a qualidade de vida daqueles que enfrentam desafios capilares.
           </p> <svg xmlns="http://www.w3.org/2000/svg" width="6" height="67" viewBox="0 0 6 67" fill="none">
             <path
               d="M3 66.8867L5.88675 64L3 61.1132L0.113246 64L3 66.8867ZM2.5 -2.18557e-08L2.5 64L3.5 64L3.5 2.18557e-08L2.5 -2.18557e-08Z"
               fill="#D3C09F"></path>
           </svg>
-        </div> <img className="about-main-img" src="./assets/img3x4demo2.jpeg" alt="" />
+        </div> 
+        <img className="about-main-img" src="./assets/img3x4demo2.jpeg" alt="" />
         <div className="infobox">
           <h2>Olhar atencioso e individualizado</h2>
           <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas laboriosam fugiat, amet ab debitis commodi
             sequi officiis labore nemo, nisi maxime alias! Molestiae consequuntur voluptatum eveniet suscipit in ea odio!
-          </p> <button>CONHEÇA AGORA <i className="fa-solid fa-arrow-right-long"></i></button>
+          </p> 
+          <button>CONHEÇA AGORA <i className="fa-solid fa-arrow-right-long"></i></button>
         </div>
       </section>
       <section id="local">
@@ -41,7 +44,8 @@ export default function Home() {
             saúde e vitalidade. Da endocrinologia à tricologia, do transplante capilar à cirurgia plástica e estética, e,
             passando pela ginecologia, cada núcleo contribui para uma experiência única e personalizada.</p>
           <button>CONHEÇA AGORA <i className="fa-solid fa-arrow-right-long"></i></button>
-        </div> <img className="local-main-img" src="./assets/img3x4demo2.jpeg" alt="" />
+        </div> 
+        <img className="local-main-img" src="./assets/img3x4demo2.jpeg" alt="" />
       </section>
     </main>
   )

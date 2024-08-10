@@ -47,9 +47,9 @@ export default function Footer() {
               </li>
             </ul>
           </div>
+      <p>CNPJOTO 54.6454.5454./0001-19</p>
         </div>
       </section>
-      <p>CNPJOTO 54.6454.5454./0001-19</p>
     </footer>
   )
 

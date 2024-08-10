@@ -73,7 +73,7 @@ h3{
 section button{
 	width: 58%;
 	height: fit-content;
-	/* text-align: start; */
+	
 	padding-inline: 1rem;
 	padding-block: 2rem;
 	margin-block: 1rem;

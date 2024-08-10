@@ -37,11 +37,11 @@ visibility: hidden;
  padding-inline: 1rem;
 }
 
-ul li {
+#modal ul li {
   margin-bottom: 3rem;
   
 
 }
-ul li h3{
+#modal ul li h3{
   margin-bottom: 1rem;
 }
