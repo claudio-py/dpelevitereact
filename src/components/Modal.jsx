@@ -11,9 +11,9 @@ export default function Modal({ content }) {
   return (
     <div id='parent-modal'  className='hide-modal'>
       <div id='modal'>
-        <p>
+        
           {content}
-        </p>
+        
         <div onClick={addHideModalClass} className='close-button'><i className="fa-solid fa-xmark"></i></div>
       </div>
       

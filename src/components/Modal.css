@@ -11,16 +11,18 @@
 }
 #modal{
 position:fixed;
-top: 38%;
+
+top: 10%;
 left: 5%;
 width: 90%;
 background-color: #fff;
-height: fit-content;
+
+ max-height: 80%;
 padding-inline: 2rem;
 padding-block: 5rem;
 box-shadow:   0 4px 6px rgba(0, 0, 0, 0.1);
 z-index: 15;
-
+overflow: overlay;
 }
 .hide-modal{
 visibility: hidden;
@@ -33,4 +35,13 @@ visibility: hidden;
  
  /* border:3px solid red; */
  padding-inline: 1rem;
+}
+
+ul li {
+  margin-bottom: 3rem;
+  
+
+}
+ul li h3{
+  margin-bottom: 1rem;
 }

@@ -10,13 +10,11 @@ export default function Home() {
         </div>
         <div className="service-buttons">
       
-          <Button text='serviço um' url='serviceum' />
-          <Button text='serviço dois' url='localhost:3000/servicedois' />
-          <Button text='serviço tres' url='localhost:3000/servicetres' />
-          <Button text='serviço quatro' url='localhost:3000/servicequatro' />
-          <Button text='serviço cinco' url='localhost:3000/servicecinco' />
-          <Button text="função onClick" onClick={() => { window.alert("you clicked a button") }} />
-          <Button text="urltest" url="#" />
+          <Button text='Estetica facial' url='esteticafacial' />
+          <Button text='Rejuvenescimento facial' url='rejuvenescimentofacial' />
+          <Button text='Estética corporal' url='esteticaporporal' />
+          <Button text='Deilação à laser' url='depilaser' />
+
         </div>
       </section>
       <section id="about">

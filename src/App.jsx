@@ -1,7 +1,10 @@
 import{BrowserRouter,Routes,Route} from 'react-router-dom'
 import Home from './pages/Home.jsx'
-import Serviceum from './pages/Serviceum.jsx'
+import Estfacial from './pages/Estfacial.jsx'
 import './App.css'
+import Rejufacial from './pages/Rejufacial.jsx'
+import Estcorp from './pages/Estcorp.jsx'
+import Depilaser from './pages/Depilaser.jsx'
 
 function App() {
 
@@ -12,7 +15,10 @@ function App() {
      <Routes>
      <Route  index element ={<Home/>} />
      <Route path='/home' element={<Home />} />
-     <Route path='/serviceum' element={<Serviceum />} />
+     <Route path='/esteticafacial' element={<Estfacial/>} />
+     <Route path='/rejuvenescimentofacial' element={<Rejufacial/>} />
+     <Route path='/esteticaporporal' element={<Estcorp/>} />
+     <Route path='/depilaser' element={<Depilaser/>} />
 
      </Routes>
      </BrowserRouter> 

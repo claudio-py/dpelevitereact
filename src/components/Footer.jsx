@@ -3,7 +3,9 @@ import './Footer.css'
 export default function Footer() {
   return (
     <footer id="footer">
-      <section className="pre-footer">
+      <section className="pre-footer"
+      style={{backgroundImage: 'url(./assets/footer-bg.jpeg)'}}
+      >
         <div className="infobox">
           <h2>Descubra a leveza de se cuidar na Clínica D`PELE</h2> <button>AGENDE UMA CONSULTA <i
             className="fa-solid fa-arrow-right-long"></i></button>

@@ -1,7 +1,7 @@
 
 
 
-const Button = ({ text, onClick, url, noArrow }) => {
+export default function Button ({ text, onClick, url, noArrow }){
   return (
 url ?
 noArrow ?
@@ -23,33 +23,5 @@ noArrow ?
 
   )
 
-
-
-
-
-
-
-
-
-  //   const handleClick = () => {
-//     url ? 
-//         window.location.href = url 
-//       : onClick()
-//   };
-  
-//   return (
-//   noArrow ? 
-//   (
-//     <button onClick={handleClick} id='noArrowButton'>
-//       <p>{text}</p>
-//     </button>
-//   ) 
-//   : (
-//     <button onClick={handleClick}>
-//       <p>{text}</p> <i className="fa-solid fa-arrow-right-long"></i>
-//     </button>
-//   )
-// )
 };
 
-export default Button;
