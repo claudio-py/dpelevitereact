@@ -63,7 +63,7 @@ export default function Home() {
       <section id="about">
         <div className="about-entry"> 
           <img className="about-logo" src="./logo192.png" alt="" />
-          <p>Transforme sua Beleza com Saúde e Bem-Estar na D Pele Centro Especializado de Beleza
+          <p>Nossa Pele fala sobre nós, ela conta nossa história. Escolha contar o trecho mais bonito!
           </p> <svg xmlns="http://www.w3.org/2000/svg" width="6" height="67" viewBox="0 0 6 67" fill="none">
             <path
               d="M3 66.8867L5.88675 64L3 61.1132L0.113246 64L3 66.8867ZM2.5 -2.18557e-08L2.5 64L3.5 64L3.5 2.18557e-08L2.5 -2.18557e-08Z"
@@ -72,8 +72,8 @@ export default function Home() {
         </div> 
         <img className="about-main-img" src="./assets/img3x4demo2.jpeg" alt="" />
         <div className="infobox">
-          <h2>Olhar atencioso e individualizado</h2>
-          <p> Na D Pele, acreditamos que a beleza é um reflexo da saúde e do cuidado consigo mesmo. Nosso objetivo é proporcionar tratamentos estéticos de excelência, que valorizem sua beleza natural e promovam bem-estar em um ambiente acolhedor e profissional.
+          <h2>Olhar atencioso e personalizado</h2>
+          <p> Na D’P acreditamos que a beleza é um reflexo da saúde e do auto cuidado. Queremos proporcionar tratamentos com excelência; que lhe inspirem sobretudo, segurança e bem estar.
 
           </p> 
           {/* <button>CONHEÇA AGORA <i className="fa-solid fa-arrow-right-long"></i></button> */}
@@ -81,8 +81,7 @@ export default function Home() {
       </section>
       <section id="local">
         <div className="infobox">
-          <h2>Um espa<span style={{ fontFamily: 'museo', fontSize: '2.5rem', color: 'var(--primary-color)' }}>Ç</span>o projetado
-            para o seu bem-estar</h2>
+          <h2>Lugar para se cuidar e relaxar</h2>
           <p>Mais que um espaço para cuidar da beleza a D’Pele visa sua satisfação e bem estar desde os mínimos detalhes e se propõe a lhe oferecer uma experiência única e acolhedora, para um doce encontro com sua melhor versão. 
           Com uma abordagem global, focada primeiramente na saúde, nosso time de especialistas está pronto para cuidar de você com protocolos exclusivos e personalizados.</p>
           {/* <button>CONHEÇA AGORA <i className="fa-solid fa-arrow-right-long"></i></button> */}

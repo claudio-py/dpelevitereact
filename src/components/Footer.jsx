@@ -19,11 +19,11 @@ export default function Footer() {
         <div className="last-footer">
           <div>
             <h3>Endereço</h3>
-            <p>Rua Canadá, 215, Jd. América – São Paulo SP</p>
+            <p>Rua Antônio Barreto, 456, Umarizal - Belém PA</p>
           </div>
           <div>
             <h3>Contato</h3>
-            <p>WhatsApp: (11) 99999-9999</p>
+            <p>(91) 2121-5010</p>
           </div>
           <div>
             <h3>Acompanhe</h3>
