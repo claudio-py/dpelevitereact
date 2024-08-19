@@ -24,23 +24,25 @@ export default function Rejufacial (){
         />
         <Modal
           content={ 
+            
           <ul>
+            <li>São os procedimentos perfeitos para estímulo de colágeno, efeito lifting e melhora da qualidade dérmica, confira a seguir:</li>
             <li>
               <h3>Sculptra</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas laboriosam fugiat, amet ab debitis commodi</p>
+              <p>Conhecido como PLLA, o ácido poli L lático  de ácido poli-L-lático é um bioestimulador líquido injetado na derme profunda da pele, sendo biocompatível e absorvível pelo organismo.</p>
 
             </li>
             <li>
               <h3>Fios de PDO</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas laboriosam fugiat, amet ab debitis commodi</p>
+              <p>Os fios de polidioxanona estimulam a produção de colágeno, sendo biocompatíveis com o organismo e totalmente reabsorvíveis.</p>
               </li>
             <li>
               <h3>Ultraformer</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas laboriosam fugiat, amet ab debitis commodi</p>
+              <p>?</p>
               </li>
             <li>
               <h3>Microagulhamento</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas laboriosam fugiat, amet ab debitis commodi</p>
+              <p>Técnica de perfuração da pele com dispositivo de micro agulhas causando uma  inflamação controlada para bioestimulo de colágeno. </p>
               </li>
           </ul>
           
@@ -49,27 +51,28 @@ export default function Rejufacial (){
         />
         <Button text='Ácido hialurônico' onClick={removeHideModalClass} />
         <Modal
-          content={<p>serviço 2 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas laboriosam fugiat, amet ab debitis commodi sequi officiis labore nemo, nisi maxime alias! Molestiae consequuntur voluptatum eveniet suscipit in ea odio!</p>
+          content={<p>Preenchimento de áreas com ácido hialurônico,
+Técnica para  reposição do volume perdido com o envelhecimento, gerar embelezamento e fazer sustentação da face.</p>
             }
         />
         <Button text='Toxina botulínica' onClick={removeHideModalClass} />
         <Modal
-          content="serviço 3 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas laboriosam fugiat, amet ab debitis commodi sequi officiis labore nemo, nisi maxime alias! Molestiae consequuntur voluptatum eveniet suscipit in ea odio!"
+          content="Substância que suaviza as contrações musculares, atenuando rugas dinâmicas e promovendo maior uniformização da pele."
         />
         <Button text='Manchas e cicatrizes ' onClick={removeHideModalClass} />
         <Modal
           content={ <ul>
             <li>
               <h3>Peeling químico e físico</h3>
-               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas laboriosam fugiat, amet ab debitis commodi</p>
+               <p>Aplicação de ativos sobre a pele para uma descamação controlada, promovendo uma renovação cutânea e favorecendo seu rejuvenescimento </p>
                </li>
             <li>
               <h3> Microagulhamento com drug delivery</h3>
-             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas laboriosam fugiat, amet ab debitis commodi</p>
+             <p>Técnica de perfuração da pele com dispositivo de micro agulhas que causa uma  inflamação controlada para bioestimulo de colágeno. Para completar ou potencializar o tratamento, com os canais ainda abertos, passa-se na pele ativos clareadores ou regeneradores. </p>
              </li>
             <li>
               <h3> Skinbooster com ativos clareadores</h3>
-             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas laboriosam fugiat, amet ab debitis commodi</p>
+             <p>Técnica injetável de ativos para regeneração cutânea, hidratação e associação com ativos clareadores. </p>
              </li>
           </ul>
           }

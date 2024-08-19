@@ -13,18 +13,12 @@ return(
           <div className="nav-menu-section service-menu">
             <h3>Serviços</h3>
             <ul>
-              <li><a href="#home">Inicio Inicio Inicio Inicio </a></li>
-              <li><a href="#services">Serviços Serviços</a></li>
-              <li><a href="#about">Sobre </a></li>
-              <li><a href="#home">Inicio Inicio Inicio Inicio </a></li>
-              <li><a href="#services">Serviços Serviços</a></li>
-              <li><a href="#about">Sobre </a></li>
-              <li><a href="#home">Inicio Inicio Inicio Inicio </a></li>
-              <li><a href="#services">Serviços Serviços</a></li>
-              <li><a href="#about">Sobre </a></li>
-              <li><a href="#home">Inicio Inicio Inicio Inicio </a></li>
-              <li><a href="#services">Serviços Serviços</a></li>
-              <li><a href="#about">Sobre </a></li>
+              <li><a href="esteticafacial">Estetica facial</a></li>
+              <li><a href="rejuvenescimentofacial">Rejuvenescimento facial</a></li>
+              <li><a href="esteticaporporal">Estética corporal</a></li>
+              <li><a href="depilaser">Deilação à laser </a></li>
+              <li><a href="#about">Sobre</a></li>
+              <li><a href="#services">A clínica</a></li>
             </ul>
           </div>
           <div className="nav-menu-section adress">

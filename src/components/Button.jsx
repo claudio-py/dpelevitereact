@@ -17,7 +17,7 @@ noArrow ?
               )
     : (
              <button onClick={onClick}>
-               <p>{text}</p> <i className="fa-solid fa-arrow-right-long"></i>
+               {text} <i className="fa-solid fa-arrow-right-long"></i>
              </button>
     )          
 

@@ -1,6 +1,13 @@
 import './Home.css'
 import Button from '../components/Button'
+import Modal from "../components/Modal"
 export default function Home() {
+  const removeHideModalClass = (event) => {
+    const elementBelow = event.currentTarget.nextElementSibling;
+    if (elementBelow && elementBelow.classList.contains('hide-modal')) {
+      elementBelow.classList.remove('hide-modal');
+    }
+  };
   return (
     <main>
       <section id="service">
@@ -12,8 +19,44 @@ export default function Home() {
       
           <Button text='Estetica facial' url='esteticafacial' />
           <Button text='Rejuvenescimento facial' url='rejuvenescimentofacial' />
-          <Button text='Estética corporal' url='esteticaporporal' />
-          <Button text='Deilação à laser' url='depilaser' />
+          {/* <Button text='Estética corporal' url='esteticaporporal' /> */}
+          <Button text='Estética corporal'  onClick={removeHideModalClass} />
+        <Modal
+          content={ <ul>
+            <li>
+              <h3>- Massagem relaxante</h3>
+               </li>
+            <li>
+              <h3>- Método drenodetox</h3>
+             </li>
+            <li>
+              <h3>- Hidrolipoclasia não aspirativa</h3>
+             </li>
+             <li>
+              <h3>- Drenagem linfática corporal</h3>
+               </li>
+            <li>
+              <h3>- Protocolo para flacidez</h3>
+             </li>
+            <li>
+              <h3>- Protocolo para celulite </h3>
+             </li>
+             <li>
+              <h3>- Protocolo para redução de medidas</h3>
+               </li>
+            <li>
+              <h3>- Protocolo para gordura localizada </h3>
+             </li>
+            <li>
+              <h3>- Harmonização corporal</h3>
+             </li>
+             <li>
+              <h3>- Harmonização de glúteos</h3>
+             </li>
+          </ul>
+          }
+        />
+          <Button text='Epilação à laser' url='depilaser' />
 
         </div>
       </section>
