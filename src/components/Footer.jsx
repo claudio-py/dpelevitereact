@@ -14,9 +14,7 @@ export default function Footer() {
       <section className="last">
         <div className="footer-logo">
           <h2>D`PELE</h2>
-          <p>Responsável técnico Médico:</p>
-          <p>Responsável técnico Médico:</p>
-          <p>Responsável técnico Médico:</p>
+       
         </div>
         <div className="last-footer">
           <div>

@@ -63,7 +63,7 @@ export default function Home() {
       <section id="about">
         <div className="about-entry"> 
           <img className="about-logo" src="./logo192.png" alt="" />
-          <p>Um propósito simples e admirável: aprimorar a qualidade de vida daqueles que enfrentam desafios capilares.
+          <p>Transforme sua Beleza com Saúde e Bem-Estar na D Pele Centro Especializado de Beleza
           </p> <svg xmlns="http://www.w3.org/2000/svg" width="6" height="67" viewBox="0 0 6 67" fill="none">
             <path
               d="M3 66.8867L5.88675 64L3 61.1132L0.113246 64L3 66.8867ZM2.5 -2.18557e-08L2.5 64L3.5 64L3.5 2.18557e-08L2.5 -2.18557e-08Z"
@@ -73,10 +73,10 @@ export default function Home() {
         <img className="about-main-img" src="./assets/img3x4demo2.jpeg" alt="" />
         <div className="infobox">
           <h2>Olhar atencioso e individualizado</h2>
-          <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas laboriosam fugiat, amet ab debitis commodi
-            sequi officiis labore nemo, nisi maxime alias! Molestiae consequuntur voluptatum eveniet suscipit in ea odio!
+          <p> Na D Pele, acreditamos que a beleza é um reflexo da saúde e do cuidado consigo mesmo. Nosso objetivo é proporcionar tratamentos estéticos de excelência, que valorizem sua beleza natural e promovam bem-estar em um ambiente acolhedor e profissional.
+
           </p> 
-          <button>CONHEÇA AGORA <i className="fa-solid fa-arrow-right-long"></i></button>
+          {/* <button>CONHEÇA AGORA <i className="fa-solid fa-arrow-right-long"></i></button> */}
         </div>
       </section>
       <section id="local">
@@ -85,7 +85,7 @@ export default function Home() {
             para o seu bem-estar</h2>
           <p>Mais que um espaço para cuidar da beleza a D’Pele visa sua satisfação e bem estar desde os mínimos detalhes e se propõe a lhe oferecer uma experiência única e acolhedora, para um doce encontro com sua melhor versão. 
           Com uma abordagem global, focada primeiramente na saúde, nosso time de especialistas está pronto para cuidar de você com protocolos exclusivos e personalizados.</p>
-          <button>CONHEÇA AGORA <i className="fa-solid fa-arrow-right-long"></i></button>
+          {/* <button>CONHEÇA AGORA <i className="fa-solid fa-arrow-right-long"></i></button> */}
         </div> 
         <img className="local-main-img" src="./assets/img3x4demo2.jpeg" alt="" />
       </section>
