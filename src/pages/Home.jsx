@@ -83,9 +83,8 @@ export default function Home() {
         <div className="infobox">
           <h2>Um espa<span style={{ fontFamily: 'museo', fontSize: '2.5rem', color: 'var(--primary-color)' }}>Ç</span>o projetado
             para o seu bem-estar</h2>
-          <p>Com um time de profissionais qualificados, nossa clínica oferece uma abordagem integral para promover sua
-            saúde e vitalidade. Da endocrinologia à tricologia, do transplante capilar à cirurgia plástica e estética, e,
-            passando pela ginecologia, cada núcleo contribui para uma experiência única e personalizada.</p>
+          <p>Mais que um espaço para cuidar da beleza a D’Pele visa sua satisfação e bem estar desde os mínimos detalhes e se propõe a lhe oferecer uma experiência única e acolhedora, para um doce encontro com sua melhor versão. 
+          Com uma abordagem global, focada primeiramente na saúde, nosso time de especialistas está pronto para cuidar de você com protocolos exclusivos e personalizados.</p>
           <button>CONHEÇA AGORA <i className="fa-solid fa-arrow-right-long"></i></button>
         </div> 
         <img className="local-main-img" src="./assets/img3x4demo2.jpeg" alt="" />
