@@ -38,7 +38,7 @@ export default function Rejufacial (){
               </li>
             <li>
               <h3>Ultraformer</h3>
-              <p>?</p>
+              
               </li>
             <li>
               <h3>Microagulhamento</h3>

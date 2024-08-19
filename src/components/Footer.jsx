@@ -7,7 +7,7 @@ export default function Footer() {
       style={{backgroundImage: 'url(./assets/footer-bg.jpeg)'}}
       >
         <div className="infobox">
-          <h2>Descubra a leveza de se cuidar na Clínica D`PELE</h2> <button>AGENDE UMA CONSULTA <i
+          <h2>Descubra a leveza de se cuidar na Cl<span style={{ fontFamily: 'museo', fontSize: '2.5rem', color: 'var(--primary-color)' }}>Í</span>nica D`PELE</h2> <button>AGENDE UMA CONSULTA <i
             className="fa-solid fa-arrow-right-long"></i></button>
         </div>
       </section>
