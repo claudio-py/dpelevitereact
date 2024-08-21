@@ -1,8 +1,6 @@
-.wrapper {
-	width: min(51rem, 100%);
-	margin-inline: auto;
-	padding-inline: 2.4rem;
- 
+
+nav .menu .nav-menu-section{
+	text-align: start;
 }
 nav {
 	display: flex;
@@ -13,6 +11,9 @@ nav .wrapper {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+	width: max(51rem, 100%);
+	margin-inline: auto;
+	padding-inline: 2.4rem;
 
 }
 .logo{
@@ -22,7 +23,11 @@ nav .wrapper {
 .div-wpp-icon svg{
   max-width: 38px;
   height: 38px;   
+  display: block;
 } 
+.div-wpp-icon button{
+	display: none;
+}
 .div-wpp-icon svg path{
   fill: var(--primary-color);
 }
@@ -114,4 +119,40 @@ margin-left: 2.5rem;
 }
 .nav-menu-section.follow{
   margin-bottom: 1.5rem;
+}
+/* media query to apply at a minum of 767.98px */
+@media (min-width: 767.98px ) {
+	/*============== HEADER =========================*/
+
+nav .wrapper .logo{
+	position: relative;
+	left: 10rem;
+}	
+.div-wpp-icon svg{
+  display: none;
+
+	
+}
+.div-wpp-icon button{
+	border:1px solid var(--secondary-color);
+	padding: 1rem;
+	display: block;
+	color: var(--secondary-color);
+	margin-right: -1.5rem;
+	transition: background-color 0.5s;		
+}
+.div-wpp-icon button:hover{	
+	background-color: var(--secondary-color);
+	color: var(--bg-light);	
+	transition: background-color 0.5s;		
+
+}
+.div-wpp-icon button:hover i{
+	color: var(--bg-light);
+}
+
+.div-wpp-icon i{
+	color: var(--secondary-color);
+
+}
 }

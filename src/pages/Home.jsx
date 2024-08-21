@@ -62,7 +62,7 @@ export default function Home() {
       </section>
       <section id="about">
         <div className="about-entry"> 
-          <img className="about-logo" src="./logo192.png" alt="" />
+          <img className="about-logo" src="./assets/dpelelogo.png " alt="" />
           <p>Nossa Pele fala sobre nós, ela conta nossa história. Escolha contar o trecho mais bonito!
           </p> <svg xmlns="http://www.w3.org/2000/svg" width="6" height="67" viewBox="0 0 6 67" fill="none">
             <path

@@ -23,12 +23,17 @@ margin-bottom: 1.5rem;
 /* ================ABOUT=================== */
 #about{
 	margin-top: 5rem;
-	text-align: start;
+	
 }
 
-#about button{
+/* #about button{
 	align-self: baseline;
-}
+} */
+ #about .infobox, #about .infobox h2{
+	text-align: start ;
+	align-self: baseline;
+
+ }
 .about-entry{
 	display: flex;
 	flex-direction: column;
@@ -48,12 +53,17 @@ margin-bottom: 1.5rem;
 /* =====================LOCAL==================== */
 #local{
 	margin-top: 8rem;
-	text-align: start;
+	/* text-align: start; */
 }
 .local-main-img{
 	padding: 1.5rem;
 	margin-inline: auto;
 }
-#local button{
+/* #local button{
 	align-self: baseline;
-}
+} */
+#local .infobox, #local .infobox h2{
+	text-align: start ;
+	align-self: baseline;
+
+ }
