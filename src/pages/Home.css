@@ -85,6 +85,8 @@
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
 		gap: 1rem;
+		/* display: flex;
+		flex-direction: row; */
 	}
 
 	#service .service-title {
@@ -109,5 +111,22 @@
 	#service .service-buttons {
 		align-self: center;
 	}
+
+	/* ==============ABOUT=================== */ 
+#about .about-entry p{
+	font-size: 1.8rem;
+}	
+#about .infobox-and-img{
+	display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		gap: 1rem;
+}
 	
+/* ================LOCAL=================== */ 
+#local {
+	display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		gap: 1rem;
+}
+
 }

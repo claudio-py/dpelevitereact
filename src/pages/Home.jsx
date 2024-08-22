@@ -18,7 +18,7 @@ export default function Home() {
           </div>
           
           <img className="service-title-logo" src="./assets/dpelegreylogo.png " alt="Logo" />
-        </div>
+          </div>
         <div className="service-buttons">
       
           <Button text='Estetica facial' url='esteticafacial' />
@@ -75,6 +75,7 @@ export default function Home() {
               fill="#D3C09F"></path>
           </svg>
         </div> 
+        <div className='infobox-and-img' >
         <img className="about-main-img" src="./assets/img3x4demo2.jpeg" alt="" />
         <div className="infobox">
           <h2>Olhar atencioso e personalizado</h2>
@@ -83,6 +84,8 @@ export default function Home() {
           </p> 
           {/* <button>CONHEÇA AGORA <i className="fa-solid fa-arrow-right-long"></i></button> */}
         </div>
+        </div>
+       
       </section>
       <section id="local">
         <div className="infobox">

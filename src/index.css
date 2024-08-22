@@ -11,14 +11,11 @@
 
 
 }
-main{
-	min-height: 100%;
-	
-}
+
 html {
 	scroll-behavior: smooth;
-  height: fit-content;
-	background-color: var(--text-color-dark);
+ 
+	
 }
 :root {
   font-size: 62.5%;
@@ -37,9 +34,9 @@ body {
 font-family: museo;
 
   text-align: center;
-	overflow: overlay;
-  width: 100%;
-	min-height: 100%;
+	
+ 
+	
 }
 button {
 	background: none;
