@@ -12,8 +12,12 @@ export default function Home() {
     <main>
       <section id="service">
         <div className="service-title">
+          <div className="text">
           <h2> Descubra a leveza de se cuidar</h2>
           <h3>CONHEÇA OS TRATAMENTOS</h3>
+          </div>
+          
+          <img className="service-title-logo" src="./assets/dpelegreylogo.png " alt="Logo" />
         </div>
         <div className="service-buttons">
       
@@ -60,6 +64,7 @@ export default function Home() {
 
         </div>
       </section>
+        
       <section id="about">
         <div className="about-entry"> 
           <img className="about-logo" src="./assets/dpelelogo.png " alt="" />

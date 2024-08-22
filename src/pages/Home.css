@@ -3,38 +3,45 @@
 
 /*=========== SERVICE SECTION========= */
 
-#service button{
+#service button {
 	transition: background-color .5s;
 }
- #service button:hover{
-background-color: var(--bg-dark);
-color: var(--bg-light);
-transition: background-color .5s;
- }
- #service button:hover i {
-  color: var(--bg-light); 
+
+#service button:hover {
+	background-color: var(--bg-dark);
+	color: var(--bg-light);
+	transition: background-color .5s;
 }
 
-.service-title > * {
-margin-bottom: 1.5rem;
+#service button:hover i {
+	color: var(--bg-light);
 }
 
+.service-title>* {
+	margin-bottom: 1.5rem;
+}
+
+.service-title-logo {
+	display: none;
+}
 
 /* ================ABOUT=================== */
-#about{
+#about {
 	margin-top: 5rem;
-	
+
 }
 
 /* #about button{
 	align-self: baseline;
 } */
- #about .infobox, #about .infobox h2{
-	text-align: start ;
+#about .infobox,
+#about .infobox h2 {
+	text-align: start;
 	align-self: baseline;
 
- }
-.about-entry{
+}
+
+.about-entry {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -43,27 +50,64 @@ margin-bottom: 1.5rem;
 	margin-bottom: 2rem;
 	padding-inline: 2rem;
 }
-.about-logo{
+
+.about-logo {
 	width: 5rem;
 }
-.about-main-img{
+
+.about-main-img {
 	padding: 1.5rem;
 }
 
 /* =====================LOCAL==================== */
-#local{
+#local {
 	margin-top: 8rem;
 	/* text-align: start; */
 }
-.local-main-img{
+
+.local-main-img {
 	padding: 1.5rem;
 	margin-inline: auto;
 }
+
 /* #local button{
 	align-self: baseline;
 } */
-#local .infobox, #local .infobox h2{
-	text-align: start ;
+#local .infobox,
+#local .infobox h2 {
+	text-align: start;
 	align-self: baseline;
 
- }
+}
+
+@media (min-width: 768px) {
+	#service {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		gap: 1rem;
+	}
+
+	#service .service-title {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+
+
+	}
+	#service .service-title .text{
+		position: relative;
+		top: 50%;
+		z-index: 5;
+	}
+	.service-title-logo {
+		display: block;
+		width: 58%;
+		opacity: .3;
+	}
+
+	#service .service-buttons {
+		align-self: center;
+	}
+	
+}

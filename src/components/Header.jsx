@@ -23,7 +23,7 @@ return(
           </div>
           <div className="nav-menu-section adress">
             <h3>Endereço</h3>
-            <p>Rua Antônio Barreto, 456, Umarizal - Belém PA</p>
+            <p>Rua Antônio Barreto, 456,<br/> Umarizal - Belém PA</p>
           </div>
           <div className="nav-menu-section contact">
             <h3>Contato</h3>

@@ -155,4 +155,53 @@ nav .wrapper .logo{
 	color: var(--secondary-color);
 
 }
+
+/*============== MENU EXPANDED ============== */
+#navigation .wrapper .menu{
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+
+		
+		gap: 1rem;
+} 
+.menu .nav-menu-section{
+	margin: 0;
+
 }
+.menu .nav-menu-section h3{
+font-size: 3rem;
+}
+.menu .nav-menu-section p, .menu .nav-menu-section ul li a{
+	font-size: 2rem;
+}
+.nav-menu-section.service-menu{
+	align-self: center;
+	justify-self: center;
+	grid-column: 1;
+	grid-row: 1;
+	
+} 
+.nav-menu-section.follow{
+	align-self: start;
+
+	justify-self: start;
+	grid-column: 2;
+	grid-row: 2;
+}
+.nav-menu-section.contact{
+	align-self: center;
+
+	justify-self: start;
+	grid-column: 2;
+	grid-row: 1;
+}
+.nav-menu-section.adress{
+	align-self: start;
+	justify-self: center;
+	grid-column: 1;
+	grid-row: 2;
+}
+
+
+}
+
