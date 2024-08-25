@@ -5,6 +5,7 @@ import './App.css'
 import Rejufacial from './pages/Rejufacial.jsx'
 import Estcorp from './pages/Estcorp.jsx'
 import Depilaser from './pages/Depilaser.jsx'
+import Clinica from './pages/Clinica.jsx'
 
 function App() {
 
@@ -19,7 +20,7 @@ function App() {
      <Route path='/rejuvenescimentofacial' element={<Rejufacial/>} />
      <Route path='/esteticaporporal' element={<Estcorp/>} />
      <Route path='/depilaser' element={<Depilaser/>} />
-
+      <Route path='/clinica' element={<Clinica/>} />
      </Routes>
      </BrowserRouter> 
     

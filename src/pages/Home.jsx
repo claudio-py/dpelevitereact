@@ -92,9 +92,10 @@ export default function Home() {
           <h2>Lugar para se cuidar e relaxar</h2>
           <p>Mais que um espaço para cuidar da beleza a D’Pele visa sua satisfação e bem estar desde os mínimos detalhes e se propõe a lhe oferecer uma experiência única e acolhedora, para um doce encontro com sua melhor versão. 
           Com uma abordagem global, focada primeiramente na saúde, nosso time de especialistas está pronto para cuidar de você com protocolos exclusivos e personalizados.</p>
-          {/* <button>CONHEÇA AGORA <i className="fa-solid fa-arrow-right-long"></i></button> */}
+          {/* <button>CONHEÇA A CLÍNICA <i className="fa-solid fa-arrow-right-long"></i></button> */}
+          <Button url={"clinica"} className="local-button" text={"CONHEÇA A CLÍNICA"}></Button>
         </div> 
-        <img className="local-main-img" src="./assets/img3x4demo2.jpeg" alt="" />
+        <img className="local-main-img" src="./galeria/localcut.jpg" alt="" />
       </section>
     </main>
   )
