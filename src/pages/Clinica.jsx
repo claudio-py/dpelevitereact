@@ -15,7 +15,7 @@ export default function Clinica() {
         </div>
             <hr className="hr-galeria"/>
             </div>
-       
+        
 
 
 

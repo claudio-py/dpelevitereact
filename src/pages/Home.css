@@ -3,17 +3,17 @@
 
 /*=========== SERVICE SECTION========= */
 
-#service button {
+#service .button {
 	transition: background-color .5s;
 }
 
-#service button:hover {
+#service .button:hover {
 	background-color: var(--bg-dark);
 	color: var(--bg-light);
 	transition: background-color .5s;
 }
 
-#service button:hover i {
+#service .button:hover i {
 	color: var(--bg-light);
 }
 

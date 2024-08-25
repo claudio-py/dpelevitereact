@@ -27,13 +27,13 @@
 padding-block: 3rem;
 }
 
-.pre-footer button{
+.pre-footer .button{
 	border-color: var(--bg-light);
 	color: var(--bg-light) ;
 	width: 80%;
 
 }
-.pre-footer button i{
+.pre-footer .button i{
 	color: var(--bg-light);
 }
 .last-footer{

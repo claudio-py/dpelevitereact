@@ -1,4 +1,4 @@
-import{BrowserRouter,Routes,Route} from 'react-router-dom'
+import{Routes,Route} from 'react-router-dom'
 import Home from './pages/Home.jsx'
 import Estfacial from './pages/Estfacial.jsx'
 import './App.css'
@@ -12,7 +12,6 @@ function App() {
 
   return (
     
-     <BrowserRouter>
      <Routes>
      <Route  index element ={<Home/>} />
      <Route path='/home' element={<Home />} />
@@ -22,7 +21,7 @@ function App() {
      <Route path='/depilaser' element={<Depilaser/>} />
       <Route path='/clinica' element={<Clinica/>} />
      </Routes>
-     </BrowserRouter> 
+     
     
   )
 }

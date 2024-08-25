@@ -25,7 +25,7 @@ nav .wrapper {
   height: 38px;   
   display: block;
 } 
-.div-wpp-icon button{
+.div-wpp-icon .button{
 	display: none;
 }
 .div-wpp-icon svg path{
@@ -133,7 +133,7 @@ nav .wrapper .logo{
 
 	
 }
-.div-wpp-icon button{
+.div-wpp-icon .button{
 	border:1px solid var(--secondary-color);
 	padding: 1rem;
 	display: block;
@@ -141,13 +141,13 @@ nav .wrapper .logo{
 	margin-right: -1.5rem;
 	transition: background-color 0.5s;		
 }
-.div-wpp-icon button:hover{	
+.div-wpp-icon .button:hover{	
 	background-color: var(--secondary-color);
 	color: var(--bg-light);	
 	transition: background-color 0.5s;		
 
 }
-.div-wpp-icon button:hover i{
+.div-wpp-icon .button:hover i{
 	color: var(--bg-light);
 }
 

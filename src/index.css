@@ -38,7 +38,7 @@ font-family: museo;
  
 	
 }
-button {
+.button, button {
 	background: none;
 	border: none;
 	cursor: pointer;
@@ -67,7 +67,7 @@ h3{
 	
 
 }
-section button{
+section .button{
 	width: 58%;
 	height: fit-content;
 	
@@ -94,7 +94,7 @@ align-items: center;
 .service-buttons{
 	width: 100%;
 }
-.service-buttons button{
+.service-buttons .button{
 	width: 95%;
   margin-inline: auto;
 }

@@ -1,14 +1,16 @@
+import Button from './Button'
 import './Footer.css'
 
 export default function Footer() {
+console.log('Footer render')
+
   return (
     <footer id="footer">
       <section className="pre-footer"
       style={{backgroundImage: 'url(./assets/footer-bg.jpeg)'}}
       >
         <div className="infobox">
-          <h2>Descubra a leveza de se cuidar na Cl<span style={{ fontFamily: 'museo', fontSize: '2.5rem', color: 'var(--primary-color)' }}>Í</span>nica D`PELE</h2> <button>AGENDE UMA CONSULTA <i
-            className="fa-solid fa-arrow-right-long"></i></button>
+          <h2>Descubra a leveza de se cuidar na Cl<span style={{ fontFamily: 'museo', fontSize: '2.5rem', color: 'var(--primary-color)' }}>Í</span>nica D`PELE</h2> <Button text='Agende sua avaliação' url='#' />
         </div>
       </section>
       <section className="last">

@@ -1,6 +1,8 @@
 import './Home.css'
 import Button from '../components/Button'
 import Modal from "../components/Modal"
+
+
 export default function Home() {
   const removeHideModalClass = (event) => {
     const elementBelow = event.currentTarget.nextElementSibling;
