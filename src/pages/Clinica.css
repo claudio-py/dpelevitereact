@@ -78,6 +78,16 @@ opacity: .8;
     align-items: center;
     height: 100%;
 }
-/* .ril-inner .ril__inner{
-   
-} */
+p.gallery-text{
+padding-block:3rem ;
+padding-inline: 2rem;
+
+}
+@media (min-width:767.98px){
+    p.gallery-text{
+        padding-block:5rem ;
+        padding-inline: 3rem;
+        text-align: center;
+        }
+
+}

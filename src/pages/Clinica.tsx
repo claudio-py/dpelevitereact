@@ -52,6 +52,7 @@ export default function Clinica() {
       </div>
 
       <div className='gallery-itself'>
+        <p className="gallery-text" >Na D'PELE não apenas tratamos, mas inspiramos o autocuidado. Investimos na promoção de um estilo de vida saudável, na busca constante pela melhor versão de cada paciente.</p>
         <Gallery
           images={images}
           onClick={handleClick}
