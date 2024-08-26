@@ -1,6 +1,11 @@
 // src/components/Gallery.ts
 import { Image } from "react-grid-gallery";
 
+if (typeof (window as any).global === 'undefined') {
+  (window as any).global = window;
+}
+
+
 export interface CustomImage extends Image {
   original: string;
 }

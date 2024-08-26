@@ -1,8 +1,8 @@
 // src/pages/Clinica.tsx
 import { useState } from "react";
 import { Gallery } from "react-grid-gallery";
-import Lightbox from "react-image-lightbox";
-import "react-image-lightbox/style.css";
+import Lightbox from "react-18-image-lightbox";
+import "react-18-image-lightbox/style.css";
 import "./Clinica.css";
 import { images, CustomImage } from "../components/Gallery";
 
