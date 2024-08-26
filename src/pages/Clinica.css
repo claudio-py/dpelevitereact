@@ -3,28 +3,13 @@
 }
 .intro-galeria-wrapper{
     background-size: cover;
-    background-position: bottom;
+    background-position: right;
     background-attachment: fixed;
     position: relative;
-
     z-index: -2;
+    /* height: 80vh; */
 
 }
-.intro-galeria{
-    
-  
-    height: 80vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    
-    font-weight: bold;
-    text-shadow: 2px 2px 4px black;
-    /* set a black filter below the text elements */
-    font-size: 3.5rem;
-}
-
 .intro-galeria-wrapper::before {
     content: "";
     position: absolute;
@@ -37,6 +22,23 @@
     z-index: -1;
     filter: blur(0.5px) brightness(0.5);
 }
+
+.intro-galeria{
+    
+  
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+    font-weight: bold;
+    text-shadow: 2px 2px 4px black;
+   
+    font-size: 3.5rem;
+}
+
+
 .intro-galeria h2, .intro-galeria p{
     color: var(--bg-light);
     
@@ -53,12 +55,21 @@ hr.hr-galeria{
     background: linear-gradient(to left, black 50%, white 50%);
     position: relative;
     bottom:0;
-    z-index: 10000000000;
+    z-index: 10;
     width: 15rem;
 opacity: .8;
 }
-.galery-itself{
-    height: 50rem;
+.gallery-itself{
+    padding-block: 8rem;
+}
+.gallery-itself #ReactGridGallery:first-child{
+  
+   justify-content: space-around;
+   align-items: center;
+   gap: 2rem;
+   
+
+
 }
 .intro-galeria-wrapper{
     display: flex;
@@ -67,3 +78,6 @@ opacity: .8;
     align-items: center;
     height: 100%;
 }
+/* .ril-inner .ril__inner{
+   
+} */

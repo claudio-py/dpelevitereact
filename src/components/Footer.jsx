@@ -2,7 +2,7 @@ import Button from './Button'
 import './Footer.css'
 
 export default function Footer() {
-console.log('Footer render')
+/* console.log('Footer render') */
 
   return (
     <footer id="footer">

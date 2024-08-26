@@ -1,0 +1,25 @@
+{
+
+  "compilerOptions": {
+
+    "target": "es5",
+
+    "module": "commonjs",
+
+    "allowJs": true,
+
+    "jsx": "react-jsx",
+
+    "outDir": "./dist",
+
+    "strict": true,
+
+    "esModuleInterop": true,
+
+    "noEmit": true, // Add this line to fix the error
+
+    "allowImportingTsExtensions": true
+
+  }
+
+}
