@@ -78,7 +78,7 @@ export default function Home() {
           </svg>
         </div> 
         <div className='infobox-and-img' >
-        <img className="about-main-img" src="./assets/img3x4demo2.jpeg" alt="" />
+        <img className="about-main-img" src="./galeria/imgsobre.jpg" alt="" />
         <div className="infobox">
           <h2>Olhar atencioso e personalizado</h2>
           <p> Na D’P acreditamos que a beleza é um reflexo da saúde e do auto cuidado. Queremos proporcionar tratamentos com excelência; que lhe inspirem sobretudo, segurança e bem estar.

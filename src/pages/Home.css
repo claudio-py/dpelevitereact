@@ -79,6 +79,9 @@
 	align-self: baseline;
 
 }
+#local .button{
+	align-self: baseline;
+}
 
 @media (min-width: 768px) {
 	#service {

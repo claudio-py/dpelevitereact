@@ -14,6 +14,7 @@ function App() {
   return (
     
      <Routes>
+   
      <Route  index element ={<Home/>} />
      <Route path='/home' element={<Home />} />
      <Route path='/esteticafacial' element={<Estfacial/>} />
