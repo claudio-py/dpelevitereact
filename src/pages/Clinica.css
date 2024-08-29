@@ -62,15 +62,11 @@ opacity: .8;
 .gallery-itself{
     padding-block: 8rem;
 }
-.gallery-itself #ReactGridGallery:first-child{
-  
-   justify-content: space-around;
-   align-items: center;
-   gap: 2rem;
-   
 
+/* #ReactGridGallery .ReactGridGallery_tile-viewport{
+    border: 1px solid red;
+} */
 
-}
 .intro-galeria-wrapper{
     display: flex;
     flex-direction: column;
@@ -84,10 +80,31 @@ padding-inline: 2rem;
 
 }
 @media (min-width:767.98px){
+   
+
     p.gallery-text{
         padding-block:5rem ;
         padding-inline: 3rem;
         text-align: center;
         }
 
+
+}
+@media(min-width:1198px){
+    .intro-galeria{
+       
+  
+        height: 100vh;
+    }
+    .intro-galeria p{
+        font-size: 2rem;
+    }
+
+.intro-galeria-wrapper{
+    background-position: top;
+}
+.gallery-itself p{
+    font-size: 2rem;
+
+}
 }

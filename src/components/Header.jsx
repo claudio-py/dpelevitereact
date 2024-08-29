@@ -54,7 +54,7 @@ return(
           </svg> 
           </button>
         <div className="logo">
-          <h1 style={{fontSize: '3rem'}}>D'PELE</h1>
+          <h1 >D'PELE</h1>
           <h2 style={{fontFamily: 'museo', fontSize: '1.4rem'}}>Centro Especializado de Beleza</h2>
         </div>
         <div className="div-wpp-icon"> 

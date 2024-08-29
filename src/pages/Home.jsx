@@ -29,6 +29,9 @@ export default function Home() {
           <Button text='Estética corporal'  onClick={removeHideModalClass} />
         <Modal
           content={ <ul>
+            <li><h2>
+              Est<span style={{ fontFamily: 'museo', fontSize: '2.3rem', color: 'var(--primary-color)' }}>É</span>tica corporal
+              </h2></li>
             <li>
               <h3>- Massagem relaxante</h3>
                </li>
@@ -62,8 +65,18 @@ export default function Home() {
           </ul>
           }
         />
-          <Button text='Epilação à laser' url='depilaser' />
-
+        
+          
+        <Button text='Epilação à laser' 
+          onClick={removeHideModalClass}
+        />
+        <Modal
+          content={<>
+            <h2>Epila<span style={{ fontFamily: 'museo', fontSize: '2.3rem', color: 'var(--primary-color)' }}>ÇÃ</span>o <span style={{ fontFamily: 'museo', fontSize: '2.3rem', color: 'var(--primary-color)' }}>Á</span> laser</h2>
+          <p>A mais completa tecnologia de epilação a laser do mercado. Remoção definitiva dos pelos de todos os fototipos cutâneos, com exclusiva ponteira de resfriamento para uma técnica mais segura e confortável.</p>
+          </>
+        }
+        />
         </div>
       </section>
         

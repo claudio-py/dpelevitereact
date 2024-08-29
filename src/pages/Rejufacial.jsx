@@ -10,12 +10,10 @@ export default function Rejufacial (){
   };
   
   return(
-<section >
+<section id="rejuvenescimento" >
       <div className="infobox">
         <h2>Rejuvenescimento facial</h2>
-        {/* <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas laboriosam fugiat, amet ab debitis commodi
-          sequi officiis labore nemo, nisi maxime alias! Molestiae consequuntur voluptatum eveniet suscipit in ea odio!
-        </p>  */}
+       
         <Button text='Descubra o tratamento ideal para você' url='#' noArrow={true} />
       </div>
       <div className="service-buttons">
@@ -26,6 +24,9 @@ export default function Rejufacial (){
           content={ 
             
           <ul>
+            <h2>
+              Bioestimuladores de col<span style={{ fontFamily: 'museo', fontSize: '2.3rem', color: 'var(--primary-color)' }}>Á</span>geno
+            </h2>
             <li>São os procedimentos perfeitos para estímulo de colágeno, efeito lifting e melhora da qualidade dérmica, confira a seguir:</li>
             <li>
               <h3>Sculptra</h3>
@@ -51,17 +52,30 @@ export default function Rejufacial (){
         />
         <Button text='Ácido hialurônico' onClick={removeHideModalClass} />
         <Modal
-          content={<p>Preenchimento de áreas com ácido hialurônico,
-Técnica para  reposição do volume perdido com o envelhecimento, gerar embelezamento e fazer sustentação da face.</p>
+          content={
+            <>
+            <h2>
+              Ácido hialur<span style={{ fontFamily: 'museo', fontSize: '2.3rem', color: 'var(--primary-color)' }}>Ô</span>nico
+            </h2>
+          <p>Preenchimento de áreas com ácido hialurônico,
+Técnica para  reposição do volume perdido com o envelhecimento, gerar embelezamento e fazer sustentação da face.</p></>
             }
         />
         <Button text='Toxina botulínica' onClick={removeHideModalClass} />
         <Modal
-          content="Substância que suaviza as contrações musculares, atenuando rugas dinâmicas e promovendo maior uniformização da pele."
+          content={  <>
+            <h2>
+              Toxina botulínica
+            </h2>
+            <p>Substância que suaviza as contrações musculares, atenuando rugas dinâmicas e promovendo maior uniformização da pele.</p>
+            </>}
         />
         <Button text='Manchas e cicatrizes ' onClick={removeHideModalClass} />
         <Modal
           content={ <ul>
+            <h2>
+              Manchas e cicatrizes
+            </h2>
             <li>
               <h3>Peeling químico e físico</h3>
                <p>Aplicação de ativos sobre a pele para uma descamação controlada, promovendo uma renovação cutânea e favorecendo seu rejuvenescimento </p>

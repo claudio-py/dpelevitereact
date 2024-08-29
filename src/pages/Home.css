@@ -83,7 +83,8 @@
 	align-self: baseline;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 767.98px) {
+	
 	#service {
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
@@ -124,12 +125,25 @@
 		grid-template-columns: repeat(2, 1fr);
 		gap: 1rem;
 }
+#about .infobox{
+	align-self: center;
+}
+#about .infobox h2{
+	font-size: 3rem;
+}
 	
 /* ================LOCAL=================== */ 
 #local {
 	display: grid;
 		grid-template-columns: repeat(2, 1fr);
 		gap: 1rem;
+}
+#local .infobox{
+	align-self: center;
+}
+#local .infobox h2{
+	font-size: 3rem;
+
 }
 
 }

@@ -19,14 +19,15 @@ export default function Footer() {
        
         </div>
         <div className="last-footer">
+        <div>
+            <h3>Contato</h3>
+            <p>(91) 2121-5010</p>
+          </div>
           <div>
             <h3>Endereço</h3>
             <p>Rua Antônio Barreto, 456, Umarizal - Belém PA</p>
           </div>
-          <div>
-            <h3>Contato</h3>
-            <p>(91) 2121-5010</p>
-          </div>
+        
           <div>
             <h3>Acompanhe</h3>
             <ul className="social-links">
@@ -47,9 +48,11 @@ export default function Footer() {
               </li>
             </ul>
           </div>
-      <p>CNPJ 54.6454.5454./0001-19</p>
         </div>
+
       </section>
+      <p>CNPJ 54.6454.5454./0001-19</p>
+
     </footer>
   )
 

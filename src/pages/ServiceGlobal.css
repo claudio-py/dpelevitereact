@@ -1,11 +1,8 @@
-#noArrowButton{
-  background-color: var(--bg-dark);
-  padding-block: 1.5rem;
-  width: 80%;
-  justify-content: center;
+@media (min-width: 767.98px) {
+#estetica-facial,#rejuvenescimento{
+  display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		gap: 1rem;
 }
-#noArrowButton p{
-  color:var(--bg-light);
-  font-size: 1.4rem;
-  
 }
+

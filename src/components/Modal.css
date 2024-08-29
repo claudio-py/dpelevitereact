@@ -1,5 +1,4 @@
 #parent-modal {
-  
   position: fixed;
   top: 0;
   left: 0;
@@ -7,25 +6,29 @@
   height: 100vh;
   background-color: rgba(0, 0, 0, 0.632); /* Semi-transparent black */
   z-index: 10; /* Ensure the overlay is below the modal */
- 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+transition: visibility 0s, opacity .3s linear;
+  
 }
-#modal{
-position:fixed;
 
-top: 10%;
-left: 5%;
-width: 90%;
-background-color: #fff;
-
- max-height: 80%;
-padding-inline: 2rem;
-padding-block: 5rem;
-box-shadow:   0 4px 6px rgba(0, 0, 0, 0.1);
-z-index: 15;
-overflow: overlay;
+#modal {
+  background-color: #fff;
+  max-height: 80%;
+  padding-inline: 2rem;
+  padding-block: 5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 15;
+  overflow: overlay;
+  width: 90%;
+  position: relative;
 }
 .hide-modal{
 visibility: hidden;
+opacity: 0;
+
 }
 .close-button{
   position: absolute;

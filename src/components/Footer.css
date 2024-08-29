@@ -15,7 +15,7 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 	
-	height: 58rem;
+	height: 80vh;
 	
 }
 .pre-footer .infobox{
@@ -25,6 +25,7 @@
 	justify-content: space-between;
 	height: 100%;
 padding-block: 3rem;
+margin: 0;
 }
 
 .pre-footer .button{
@@ -62,4 +63,48 @@ padding-block: 3rem;
 }
 footer section.last{
 	padding-top: 5rem;
+}
+@media(min-width:767.98px){
+	footer{
+		padding-bottom: 3rem;
+		
+	}
+	.pre-footer{
+		display: flex;
+		background-position: left;
+		background-size: cover;
+		background-color: #000!important;
+	}
+	.pre-footer .infobox{
+		justify-content: center;
+		width: 50%;
+		
+	}
+	.pre-footer .infobox h2{
+		font-size: 3rem;
+	}
+.last{
+	padding-bottom: 5rem;
+}
+	.last .last-footer{
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+	
+	}
+
+
+}
+
+@media(min-width:1198px){
+	.pre-footer{
+		height: 100vh;
+		background-position: right;
+    background-size: contain;
+	}
+	.pre-footer .infobox{
+		width: 30%;
+		margin-left: 5%;
+		
+	}
 }
