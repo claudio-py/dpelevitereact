@@ -12,6 +12,7 @@ if (typeof (window as any).global === 'undefined') {
 }
 
 export default function Clinica() {
+  
   const [index, setIndex] = useState(-1);
 
   const currentImage = images[index];
