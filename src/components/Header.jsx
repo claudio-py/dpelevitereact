@@ -1,6 +1,15 @@
 import'./Header.css'
 import Button from './Button'
+import { Link } from 'react-router-dom';
+
+import Modal from "../components/Modal"
 export default function Header(){
+  const removeHideModalClass = (event) => {
+    const elementBelow = event.currentTarget.nextElementSibling;
+    if (elementBelow && elementBelow.classList.contains('hide-modal')) {
+      elementBelow.classList.remove('hide-modal');
+    }
+  };
   function openMenu() {
 	document.body.classList.add('menu-expanded')
 }
@@ -13,14 +22,66 @@ return(
       <div className="wrapper">
         <div className="menu">
           <div className="nav-menu-section service-menu">
-            <h3>Serviços</h3>
+            <h3>Menu</h3>
             <ul>
-              <li><a href="esteticafacial">Estetica facial</a></li>
-              <li><a href="rejuvenescimentofacial">Rejuvenescimento facial</a></li>
-              <li><a href="esteticaporporal">Estética corporal</a></li>
-              <li><a href="depilaser">Deilação à laser </a></li>
-              <li><a href="#about">Sobre</a></li>
-              <li><a href="#services">A clínica</a></li>
+            <li onClick={closeMenu} ><Link to="/">Home</Link></li>
+              <li onClick={closeMenu} ><Link to="esteticafacial">Estetica facial</Link></li>
+              <li onClick={closeMenu}><Link to="rejuvenescimentofacial">Rejuvenescimento facial</Link></li>
+            {/*   <li><a href="esteticaporporal">Estética corporal</a></li>
+              <li><a href="depilaser">Deilação à laser </a></li> */}
+              <li> <Button text='Estética corporal'  onClick={removeHideModalClass} />
+        <Modal
+          content={ <ul>
+            <li><h2>
+              Est<span style={{ fontFamily: 'museo', fontSize: '2.3rem', color: 'var(--primary-color)' }}>É</span>tica corporal
+              </h2></li>
+            <li>
+              <h3>- Massagem relaxante</h3>
+               </li>
+            <li>
+              <h3>- Método drenodetox</h3>
+             </li>
+            <li>
+              <h3>- Hidrolipoclasia não aspirativa</h3>
+             </li>
+             <li>
+              <h3>- Drenagem linfática corporal</h3>
+               </li>
+            <li>
+              <h3>- Protocolo para flacidez</h3>
+             </li>
+            <li>
+              <h3>- Protocolo para celulite </h3>
+             </li>
+             <li>
+              <h3>- Protocolo para redução de medidas</h3>
+               </li>
+            <li>
+              <h3>- Protocolo para gordura localizada </h3>
+             </li>
+            <li>
+              <h3>- Harmonização corporal</h3>
+             </li>
+             <li>
+              <h3>- Harmonização de glúteos</h3>
+             </li>
+          </ul>
+          }
+        /></li>
+              <li><Button text='Epilação à laser' 
+          onClick={removeHideModalClass}
+        />
+        <Modal
+          content={<>
+            <h2>Epila<span style={{ fontFamily: 'museo', fontSize: '2.3rem', color: 'var(--primary-color)' }}>ÇÃ</span>o <span style={{ fontFamily: 'museo', fontSize: '2.3rem', color: 'var(--primary-color)' }}>Á</span> laser</h2>
+          <p>A mais completa tecnologia de epilação a laser do mercado. Remoção definitiva dos pelos de todos os fototipos cutâneos, com exclusiva ponteira de resfriamento para uma técnica mais segura e confortável.</p>
+          </>
+        }/></li>
+                       
+        
+          
+        
+              <li onClick={closeMenu}><Link to="clinica">A clínica</Link></li>
             </ul>
           </div>
           <div className="nav-menu-section adress">

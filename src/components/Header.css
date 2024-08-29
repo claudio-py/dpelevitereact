@@ -102,6 +102,15 @@ body.menu-expanded .menu {
   
   
 }
+.nav-menu-section ul li #modal p{
+  color: var(--bg-dark);
+}
+.nav-menu-section ul li #modal h3{
+	font-size: 1.8rem;
+}
+.nav-menu-section ul li #modal{
+	text-align: center;
+}
 .nav-menu-section{
    color: var(--primary-color);
 
