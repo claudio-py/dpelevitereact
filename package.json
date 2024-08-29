@@ -1,6 +1,7 @@
 {
   "name": "dpelevitereact",
   "private": true,
+  "homepahe":"https://centrodepele.com.br/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
