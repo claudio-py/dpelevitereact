@@ -2,6 +2,7 @@ import './Home.css'
 import Button from '../components/Button'
 import Modal from "../components/Modal"
 import 'animate.css';
+import { useEffect } from 'react';
 
 
 export default function Home() {
@@ -11,13 +12,47 @@ export default function Home() {
       elementBelow.classList.remove('hide-modal');
     }
   };
+/* ================================ */
+useEffect(() => {
+  const elements = document.querySelectorAll('.animate__animated');
 
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        // Add the animation classes based on the element's original class
+        switch (entry.target.classList[0]) {
+          case 'left':
+            entry.target.classList.add('animate__fadeInLeft');
+            break;
+          case 'right':
+            entry.target.classList.add('animate__fadeInRight');
+            break;
+        }
+      } else {
+        // Remove animation classes when the element is off-screen
+        switch (entry.target.classList[0]) {
+          case 'left':
+            entry.target.classList.remove('animate__fadeInLeft');
+            break;
+          case 'right':
+            entry.target.classList.remove('animate__fadeInRight');
+            break;
+        }
+      }
+    });
+  });
 
-  
+  elements.forEach((element) => observer.observe(element));
+
+  return () => observer.disconnect(); // Cleanup observer on component unmount
+}, []);
+
+/* ================================ */
+
   return (
     <main>
       <section id="service">
-        <div className="service-title animate__animated animate__fadeInRight">
+        <div className="right service-title animate__animated ">
           <div className="text">
           <h2> Descubra a leveza de se cuidar</h2>
           <h3>CONHEÇA OS TRATAMENTOS</h3>
@@ -25,7 +60,7 @@ export default function Home() {
           
           <img className="service-title-logo" src="./assets/dpelegreylogo.png " alt="Logo" />
           </div>
-        <div className="service-buttons animate__animated animate__fadeInLeft" >
+        <div className="left service-buttons animate__animated " >
       
           <Button text='Estetica facial' url='esteticafacial' />
           <Button text='Rejuvenescimento facial' url='rejuvenescimentofacial' />
@@ -95,8 +130,8 @@ export default function Home() {
           </svg>
         </div> 
         <div className='infobox-and-img' >
-        <img className="about-main-img animate__animated animate__fadeInLeft" src="./galeria/imgsobre.jpg" alt="" />
-        <div className="infobox animate__animated animate__fadeInRight">
+        <img className="left about-main-img animate__animated " src="./galeria/imgsobre.jpg" alt="" />
+        <div className="right infobox animate__animated ">
           <h2>Olhar atencioso e personalizado</h2>
           <p> Na D’P acreditamos que a beleza é um reflexo da saúde e do auto cuidado. Queremos proporcionar tratamentos com excelência; que lhe inspirem sobretudo, segurança e bem estar.
 
@@ -107,14 +142,14 @@ export default function Home() {
        
       </section>
       <section id="local">
-        <div className="infobox animate__animated animate__fadeInLeft">
+        <div className="left infobox animate__animated ">
           <h2>Lugar para se cuidar e relaxar</h2>
           <p>Mais que um espaço para cuidar da beleza a D’Pele visa sua satisfação e bem estar desde os mínimos detalhes e se propõe a lhe oferecer uma experiência única e acolhedora, para um doce encontro com sua melhor versão. 
           Com uma abordagem global, focada primeiramente na saúde, nosso time de especialistas está pronto para cuidar de você com protocolos exclusivos e personalizados.</p>
           {/* <button>CONHEÇA A CLÍNICA <i className="fa-solid fa-arrow-right-long"></i></button> */}
           <Button url={"clinica"} className="local-button" text={"CONHEÇA A CLÍNICA"}></Button>
         </div> 
-        <img className="local-main-img animate__animated animate__fadeInRight" src="./galeria/localcut.jpg" alt="" />
+        <img className="right local-main-img animate__animated " src="./galeria/localcut.jpg" alt="" />
       </section>
     </main>
   )

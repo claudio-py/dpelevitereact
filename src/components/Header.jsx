@@ -16,6 +16,7 @@ export default function Header(){
 function closeMenu() {
 	document.body.classList.remove('menu-expanded')
 }
+
 /* console.log('Header render') */
 return(
   <nav id="navigation">
