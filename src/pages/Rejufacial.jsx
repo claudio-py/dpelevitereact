@@ -1,6 +1,8 @@
 import Button from "../components/Button"
 import Modal from "../components/Modal"
 import './ServiceGlobal.css'
+import 'animate.css';
+
 export default function Rejufacial (){
   const removeHideModalClass = (event) => {
     const elementBelow = event.currentTarget.nextElementSibling;

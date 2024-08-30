@@ -1,6 +1,7 @@
 import './Home.css'
 import Button from '../components/Button'
 import Modal from "../components/Modal"
+import 'animate.css';
 
 
 export default function Home() {
@@ -10,10 +11,13 @@ export default function Home() {
       elementBelow.classList.remove('hide-modal');
     }
   };
+
+
+  
   return (
     <main>
       <section id="service">
-        <div className="service-title">
+        <div className="service-title animate__animated animate__fadeInRight">
           <div className="text">
           <h2> Descubra a leveza de se cuidar</h2>
           <h3>CONHEÇA OS TRATAMENTOS</h3>
@@ -21,7 +25,7 @@ export default function Home() {
           
           <img className="service-title-logo" src="./assets/dpelegreylogo.png " alt="Logo" />
           </div>
-        <div className="service-buttons">
+        <div className="service-buttons animate__animated animate__fadeInLeft" >
       
           <Button text='Estetica facial' url='esteticafacial' />
           <Button text='Rejuvenescimento facial' url='rejuvenescimentofacial' />
@@ -81,8 +85,8 @@ export default function Home() {
       </section>
         
       <section id="about">
-        <div className="about-entry"> 
-          <img className="about-logo" src="./assets/dpelelogo.png " alt="" />
+        <div className="about-entry animate__animated animate__fadeInUp"> 
+          <img className="about-logo animate__animated animate__flip" src="./assets/dpelelogo.png " alt="" />
           <p>Nossa Pele fala sobre nós, ela conta nossa história. Escolha contar o trecho mais bonito!
           </p> <svg xmlns="http://www.w3.org/2000/svg" width="6" height="67" viewBox="0 0 6 67" fill="none">
             <path
@@ -91,8 +95,8 @@ export default function Home() {
           </svg>
         </div> 
         <div className='infobox-and-img' >
-        <img className="about-main-img" src="./galeria/imgsobre.jpg" alt="" />
-        <div className="infobox">
+        <img className="about-main-img animate__animated animate__fadeInLeft" src="./galeria/imgsobre.jpg" alt="" />
+        <div className="infobox animate__animated animate__fadeInRight">
           <h2>Olhar atencioso e personalizado</h2>
           <p> Na D’P acreditamos que a beleza é um reflexo da saúde e do auto cuidado. Queremos proporcionar tratamentos com excelência; que lhe inspirem sobretudo, segurança e bem estar.
 
@@ -103,14 +107,14 @@ export default function Home() {
        
       </section>
       <section id="local">
-        <div className="infobox">
+        <div className="infobox animate__animated animate__fadeInLeft">
           <h2>Lugar para se cuidar e relaxar</h2>
           <p>Mais que um espaço para cuidar da beleza a D’Pele visa sua satisfação e bem estar desde os mínimos detalhes e se propõe a lhe oferecer uma experiência única e acolhedora, para um doce encontro com sua melhor versão. 
           Com uma abordagem global, focada primeiramente na saúde, nosso time de especialistas está pronto para cuidar de você com protocolos exclusivos e personalizados.</p>
           {/* <button>CONHEÇA A CLÍNICA <i className="fa-solid fa-arrow-right-long"></i></button> */}
           <Button url={"clinica"} className="local-button" text={"CONHEÇA A CLÍNICA"}></Button>
         </div> 
-        <img className="local-main-img" src="./galeria/localcut.jpg" alt="" />
+        <img className="local-main-img animate__animated animate__fadeInRight" src="./galeria/localcut.jpg" alt="" />
       </section>
     </main>
   )

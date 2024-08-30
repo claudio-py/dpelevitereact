@@ -19,7 +19,7 @@ function closeMenu() {
 /* console.log('Header render') */
 return(
   <nav id="navigation">
-      <div className="wrapper">
+      <div className="wrapper animate__animated animate__fadeIn">
         <div className="menu">
           <div className="nav-menu-section service-menu">
             <h3>Menu</h3>
