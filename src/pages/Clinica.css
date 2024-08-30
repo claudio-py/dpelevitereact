@@ -63,9 +63,7 @@ opacity: .8;
     padding-block: 8rem;
 }
 
-/* #ReactGridGallery .ReactGridGallery_tile-viewport{
-    border: 1px solid red;
-} */
+
 
 .intro-galeria-wrapper{
     display: flex;
@@ -79,6 +77,19 @@ padding-block:3rem ;
 padding-inline: 2rem;
 
 }
+
+ .gallery-itself .gallery{
+    display: flex;
+  flex-wrap: wrap;
+  padding-inline: .3rem;
+}
+.gallery-itself .gallery .gallery-item {
+    flex: 1 1 50%;
+    overflow: hidden;
+    height: fit-content;
+    padding-inline: .3rem;
+  }
+
 @media (min-width:767.98px){
    
 
