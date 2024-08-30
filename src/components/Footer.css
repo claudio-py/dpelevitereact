@@ -84,6 +84,10 @@ footer section.last{
 #footer .cnpjoto{
 	align-self: center;
 }
+#footer .social-links{
+	justify-content: center;
+
+}
 @media(min-width:767.98px){
 #footer .pre-footer{
 height: 80vh;

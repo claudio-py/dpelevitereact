@@ -3,7 +3,7 @@ export default function Wpp() {
   return (
     
     <a
-    href="https://api.whatsapp.com/send?phone=5592988665533"
+    href="https://api.whatsapp.com/send?phone=559121215010"
     target="_blank"
     rel="noreferrer"
     style={{

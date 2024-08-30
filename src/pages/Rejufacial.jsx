@@ -14,7 +14,7 @@ export default function Rejufacial (){
       <div className="infobox">
         <h2>Rejuvenescimento facial</h2>
        
-        <Button text='Descubra o tratamento ideal para você' url='#' noArrow={true} />
+        <Button text='Descubra o tratamento ideal para você' url='https://api.whatsapp.com/send?phone=559121215010' noArrow={true} />
       </div>
       <div className="service-buttons">
         <Button text='Bioestimuladores de colágeno' 

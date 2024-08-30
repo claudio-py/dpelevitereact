@@ -132,7 +132,6 @@ margin-left: 2.5rem;
 .social-links {
 	display: flex;
 	align-items: center;
-	
 	gap: 3.2rem;
 }
 .nav-menu-section.follow{
@@ -222,7 +221,10 @@ font-size: 3rem;
 	grid-column: 1;
 	grid-row: 2;
 }
+.social-links{
+	justify-content: center;
 
+}
 
 }
 

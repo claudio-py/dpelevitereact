@@ -9,10 +9,10 @@ export default function Footer() {
       <section className="pre-footer">
         <div className="infobox">
           <h2>
-            escubra a leveza de se cuidar na Cl<span style={{ fontFamily: 'museo', fontSize: '2.5rem', color: 'var(--primary-color)' }}>Í</span>nica D`PELE
+            Descubra a leveza de se cuidar na Cl<span style={{ fontFamily: 'museo', fontSize: '2.5rem', color: 'var(--primary-color)' }}>Í</span>nica D`PELE
             </h2> 
             <img className="footer-infobox-logo" src="./assets/dpelegreylogo.png " alt="Logo" />
-            <Button text='Agende sua avaliação' url='#' />
+            <Button text='Agende sua avaliação' url='https://api.whatsapp.com/send?phone=559121215010' />
         </div>
       </section>
       <section className="last">
@@ -34,26 +34,17 @@ export default function Footer() {
             <h3>Acompanhe</h3>
             <ul className="social-links">
               <li>
-                <a href="#">
+                <a href="https://www.instagram.com/centrodepele?igsh=MTB4djE5aW96NXZ3cg==">
                   <img className='svg' src="./assets/insta.svg" />
                 </a>
               </li>
-              <li>
-                <a href="# ">
-                <img className='svg' src="./assets/face.svg" />
-                </a>
-              </li>
-              <li>
-                <a href="# ">
-                <img className='svg' src="./assets/you.svg" />
-                </a>
-              </li>
+              
             </ul>
           </div>
         </div>
 
       </section>
-      <p className="cnpjoto" >CNPJ 00.0000.0000./0001-00</p>
+      <p style={{color:"black"}} className="cnpjoto">CNPJ 00.0000.0000./0001-00</p>
 
     </footer>
   )
