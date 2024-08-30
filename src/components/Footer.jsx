@@ -6,11 +6,13 @@ export default function Footer() {
 
   return (
     <footer id="footer">
-      <section className="pre-footer"
-      style={{backgroundImage: 'url(./assets/footer-bg.jpeg)'}}
-      >
+      <section className="pre-footer">
         <div className="infobox">
-          <h2>Descubra a leveza de se cuidar na Cl<span style={{ fontFamily: 'museo', fontSize: '2.5rem', color: 'var(--primary-color)' }}>Í</span>nica D`PELE</h2> <Button text='Agende sua avaliação' url='#' />
+          <h2>
+            escubra a leveza de se cuidar na Cl<span style={{ fontFamily: 'museo', fontSize: '2.5rem', color: 'var(--primary-color)' }}>Í</span>nica D`PELE
+            </h2> 
+            <img className="footer-infobox-logo" src="./assets/dpelegreylogo.png " alt="Logo" />
+            <Button text='Agende sua avaliação' url='#' />
         </div>
       </section>
       <section className="last">
@@ -51,7 +53,7 @@ export default function Footer() {
         </div>
 
       </section>
-      <p>CNPJ 54.6454.5454./0001-19</p>
+      <p className="cnpjoto" >CNPJ 00.0000.0000./0001-00</p>
 
     </footer>
   )

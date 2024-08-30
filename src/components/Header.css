@@ -23,6 +23,11 @@ nav .wrapper {
 	margin-bottom: -2rem;
 	font-size: 3rem;
 }
+.logo h2{
+	font-family: museo; 
+	font-size: 1.4rem;
+	margin-top: 1rem;
+}
 
 .div-wpp-icon svg{
   max-width: 38px;

@@ -116,7 +116,7 @@ return(
           </button>
         <div className="logo">
           <h1 >D'PELE</h1>
-          <h2 style={{fontFamily: 'museo', fontSize: '1.4rem'}}>Centro Especializado de Beleza</h2>
+          <h2 >Centro Especializado de Beleza</h2>
         </div>
         <div className="div-wpp-icon"> 
           <svg className="wpp-icon" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
